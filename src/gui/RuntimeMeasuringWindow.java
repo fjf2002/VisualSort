@@ -125,7 +125,7 @@ public class RuntimeMeasuringWindow extends JFrame implements ActionListener {
 	 */
 	private JButton getJClearButton() {
 		if (jClearButton == null) {
-			jClearButton = new JButton("löschen");
+			jClearButton = new JButton("lÃ¶schen");
 			jClearButton.addActionListener(this);
 		}
 		return jClearButton;
@@ -199,7 +199,7 @@ public class RuntimeMeasuringWindow extends JFrame implements ActionListener {
 		if (source == jClearButton) {
 			graph.clearPoints();
 		} else if (source == jRunAlgButton) {
-			jRunAlgButton.setText("Einzeltest läuft...");
+			jRunAlgButton.setText("Einzeltest lÃ¤uft...");
 			jRunAlgButton.setEnabled(false);
 			jRunAllButton.setEnabled(false);
 			(new Thread() {
@@ -243,7 +243,7 @@ public class RuntimeMeasuringWindow extends JFrame implements ActionListener {
 							JOptionPane
 									.showMessageDialog(
 											null,
-											"Kein gültiger Wert für Feldgröße angegeben.",
+											"Kein gÃ¼ltiger Wert fÃ¼r FeldgrÃ¶ÃŸe angegeben.",
 											"VisualSort",
 											JOptionPane.ERROR_MESSAGE);
 						}
@@ -255,7 +255,7 @@ public class RuntimeMeasuringWindow extends JFrame implements ActionListener {
 			}).start();
 
 		} else if (source == jRunAllButton) {
-			jRunAllButton.setText("Testreihe läuft...");
+			jRunAllButton.setText("Testreihe lÃ¤uft...");
 			jRunAllButton.setEnabled(false);
 			jRunAlgButton.setEnabled(false);
 			(new Thread() {

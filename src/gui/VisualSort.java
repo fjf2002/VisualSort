@@ -132,7 +132,7 @@ public class VisualSort extends JFrame implements ActionListener, GUICallback {
 	 */
 	private JButton getPlayButton() {
 		if (playButton == null) {
-			playButton = new JButton("bis Ende ausführen");
+			playButton = new JButton("bis Ende ausfÃ¼hren");
 			playButton.addActionListener(this);
 			playButton.setEnabled(false);
 		}
@@ -171,7 +171,7 @@ public class VisualSort extends JFrame implements ActionListener, GUICallback {
 				int size = optionsDialog.getProblemSize();
 				if(size<=0) {
 					JOptionPane.showMessageDialog(null,
-							"Kein gültiger Wert für Feldgröße angegeben.", "VisualSort",
+							"Kein gÃ¼ltiger Wert fÃ¼r FeldgrÃ¶ÃŸe angegeben.", "VisualSort",
 							JOptionPane.ERROR_MESSAGE);
 					return;
 				}

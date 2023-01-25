@@ -155,7 +155,7 @@ public class GraphPanel extends JPanel {
 					(float) p.getY(), 1.0f, 0.5f);
 			g.setTransform(oldTransform);
 		}
-		drawAlignedString(g, "Feldgröße", getWidth() / 2, getHeight(), 0.5f,
+		drawAlignedString(g, "FeldgrÃ¶ÃŸe", getWidth() / 2, getHeight(), 0.5f,
 				1.5f);
 
 		// draw y-axis

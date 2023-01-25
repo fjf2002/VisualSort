@@ -11,13 +11,13 @@ import tools.IntArrayTools;
  * @author Franz-Josef
  */
 public enum ArrayCreationEnum {
-	PERMUTATION_NUMBERS("zuf‰llige Permutation von Zahlen") {
+	PERMUTATION_NUMBERS("zuf√§llige Permutation von Zahlen") {
 		@Override
 		public int[] create(int size) {
 			return IntArrayTools.createPermutation(size);
 		}
 	},
-	RANDOM_NUMBERS("zuf‰llige Zahlen") {
+	RANDOM_NUMBERS("zuf√§llige Zahlen") {
 		@Override
 		public int[] create(int size) {
 			return IntArrayTools.createRandomArray(size);

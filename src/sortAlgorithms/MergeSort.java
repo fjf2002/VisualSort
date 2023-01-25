@@ -50,7 +50,7 @@ public class MergeSort extends SortAlgorithm {
 	private void merge(int links, int rechts) {
 		// remove mitte pointer set in mergesort: 
 		aniHandler.removePointer("mitte");
-		// für Übersichtlichkeit: links und rechts-pfeile entfernen
+		// fÃ¼r Ãœbersichtlichkeit: links und rechts-pfeile entfernen
 		aniHandler.removePointer("links");
 		aniHandler.removePointer("rechts");
 		setSourceCodeLine(1);
