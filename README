@@ -1,17 +1,13 @@
 README for VisualSort
 =====================
 
-Copyright (C) 2009 Franz-Josef F�rber
-franzjoseffaerber@gmx.de
-
 This program visualizes the sorting algorithms
 Bubblesort, Insertionsort, Selectionsort, Mergesort.
 
-VisualSort is written in Java and should run on most platforms.
-Both cmd files serve to run it on Microsoft Windows operating systems.
-Take a look at them if you want to run VisualSort on other platforms;
-the syntax should look quite the same.
 
-The file VisualSort.jar not only contains the class files but also
-the source code. Since a jar file is essentially a zip archive,
-popular compression utilities should be able to handle it.
+Yes, this is yet another sorting algorithms demo called VisualSort.
+This project dates back to 2009 and is currently published here mainly for archiving purposes.
+
+You should be able to run the program by downloading the files in the target folder and running the cmd files.
+
+The program's language is German.
