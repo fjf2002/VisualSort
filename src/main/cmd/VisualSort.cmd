@@ -1,1 +1,1 @@
-start javaw -classpath VisualSort.jar gui.VisualSort
+java -classpath VisualSort.jar gui.VisualSort

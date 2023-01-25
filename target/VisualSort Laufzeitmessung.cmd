@@ -1,1 +1,1 @@
-start javaw -classpath VisualSort.jar gui.RuntimeMeasuringWindow
+java -classpath VisualSort.jar gui.RuntimeMeasuringWindow
